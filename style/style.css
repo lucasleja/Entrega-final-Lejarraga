@@ -1,0 +1,61 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.navbar {
+  background-color: #e56b1e;
+  min-height: 80px;
+}
+
+.nav-link {
+  color: #2C1A1D !important;
+  font-weight: bold
+}
+
+.navbar-brand {
+  color: #4158B4 !important;
+  font-size: 10vw;
+  font-weight: bold;
+}
+
+.jumboPoco {
+  background-image: url(/img/dna-163466_1280.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.upa17 {
+  background-image: url(/img/team-4529717_1280.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.historia {
+  background-color: #48A9A6;
+  padding: 50px;
+}
+
+@media screen and (min-width: 576px) {
+  .navbar-brand {
+  font-size: 50px;
+  }
+  .collapse {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-brand {
+  font-size: 70px;
+  }
+  .navbar {
+    font-size: 20px;
+  }
+  .collapse {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
