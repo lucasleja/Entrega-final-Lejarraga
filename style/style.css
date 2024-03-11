@@ -55,6 +55,22 @@
   }
 }
 
+.jumboc {
+  background-image: url(../img/mitosis-3876669_1280.jpg);
+  background-size: cover;
+}
+
+.column {
+  padding: 10px;
+}
+
 .footer {
   background-color: #e56b1e;
+}
+
+.column {
+  width: 33,3%;
+  max-width: 100%; /* Asegura que la columna no sea más ancha que su contenedor */
+  display: flex;
+  /* justify-content: center; Centra el contenido horizontalmente */
 }
