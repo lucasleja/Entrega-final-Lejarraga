@@ -74,3 +74,34 @@
   display: flex;
   /* justify-content: center; Centra el contenido horizontalmente */
 }
+
+.serv1 {
+  background-image: url(../img/servicios/guardia.jpg);
+  background-size: cover;
+}
+
+.serv2 {
+  background-image: url(../img/servicios/guardiap.jpg);
+  background-size: cover;
+}
+
+.serv3 {
+  background-image: url(../img/servicios/labs.jpg);
+  background-size: cover;
+}
+
+.serv4 {
+  background-image: url(../img/servicios/terapia.jpg);
+  background-size: cover;
+}
+
+.serv5 {
+  background-image: url(../img/servicios/nutricion.jpg);
+  background-size: cover;
+}
+
+.serv6 {
+  background-image: url(../img/servicios/kinesiologia.jpg);
+  background-size: cover;
+}
+
