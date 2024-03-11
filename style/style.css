@@ -1,8 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 
 .navbar {
   background-color: #e56b1e;
@@ -60,15 +55,6 @@
   }
 }
 
-/* comentario para probar vinculacion */
-
-.col-lg-4 {
-  padding: 25px;
-  
+.footer {
+  background-color: #e56b1e;
 }
-
-/* .imgr  {
-    height: 200px;
-    width: 200px;
-    background-position: center;
-  } */
