@@ -27,7 +27,7 @@
   background-position: center;
 }
 
-.historia, .hm10 {
+.historia, .hm10, .historia2 {
   background-color: #48A9A6;
   padding: 50px;
 }
@@ -102,6 +102,26 @@
 
 .serv6 {
   background-image: url(../img/servicios/kinesiologia.jpg);
+  background-size: cover;
+}
+
+.serv7 {
+  background-image: url(../img/servicios/traumato.jpg);
+  background-size: cover;
+}
+
+.serv8 {
+  background-image: url(../img/servicios/vacunatorio.jpg);
+  background-size: cover;
+}
+
+.serv9 {
+  background-image: url(../img/servicios/laboratorio.jpg);
+  background-size: cover;
+}
+
+.serv10 {
+  background-image: url(../img/servicios/comunidad.jpg);
   background-size: cover;
 }
 
