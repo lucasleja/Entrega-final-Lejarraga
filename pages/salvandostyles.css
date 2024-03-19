@@ -1,0 +1,126 @@
+.navbar {
+    background-color: #e56b1e;
+    min-height: 80px;
+  }
+  
+  .nav-link {
+    color: #2C1A1D !important;
+    font-weight: bold
+  }
+  
+  .navbar-brand {
+    color: #4158B4 !important;
+    font-size: 10vw;
+    font-weight: bold;
+  }
+  
+  .jumboPoco {
+    background-image: url(/img/dna-163466_1280.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .upa17 {
+    background-image: url(/img/team-4529717_1280.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .historia, .hm10, .historia2 {
+    background-color: #48A9A6;
+    padding: 50px;
+  }
+  
+  @media screen and (min-width: 576px) {
+    .navbar-brand {
+    font-size: 50px;
+    }
+    .collapse {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .navbar-brand {
+    font-size: 70px;
+    }
+    .navbar {
+      font-size: 20px;
+    }
+    .collapse {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  
+  .jumboc {
+    background-image: url(../img/mitosis-3876669_1280.jpg);
+    background-size: cover;
+  }
+  
+  .column {
+    padding: 10px;
+  }
+  
+  .footer {
+    background-color: #e56b1e;
+  }
+  
+  .column {
+    width: 33,3%;
+    max-width: 100%; 
+    display: flex;
+    
+  }
+  
+  .serv1 {
+    background-image: url(../img/servicios/guardia.jpg);
+    background-size: cover;
+  }
+  
+  .serv2 {
+    background-image: url(../img/servicios/guardiap.jpg);
+    background-size: cover;
+  }
+  
+  .serv3 {
+    background-image: url(../img/servicios/labs.jpg);
+    background-size: cover;
+  }
+  
+  .serv4 {
+    background-image: url(../img/servicios/terapia.jpg);
+    background-size: cover;
+  }
+  
+  .serv5 {
+    background-image: url(../img/servicios/nutricion.jpg);
+    background-size: cover;
+  }
+  
+  .serv6 {
+    background-image: url(../img/servicios/kinesiologia.jpg);
+    background-size: cover;
+  }
+  
+  .serv7 {
+    background-image: url(../img/servicios/traumato.jpg);
+    background-size: cover;
+  }
+  
+  .serv8 {
+    background-image: url(../img/servicios/vacunatorio.jpg);
+    background-size: cover;
+  }
+  
+  .serv9 {
+    background-image: url(../img/servicios/laboratorio.jpg);
+    background-size: cover;
+  }
+  
+  .serv10 {
+    background-image: url(../img/servicios/comunidad.jpg);
+    background-size: cover;
+  }
+  
