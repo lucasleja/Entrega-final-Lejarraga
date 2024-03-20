@@ -13,13 +13,14 @@ $colorc: #48a9a6;
       color: $coloree !important;
       font-weight: bold;
     }
+    
 
     .navbar-brand {
       color: $colort !important;
       font-size: 10vw;
       font-weight: bold;
     }
-  }
+}
 
 .jumboPoco {
   background-image: url(/img/dna-163466_1280.jpg);
@@ -67,10 +68,6 @@ $colorc: #48a9a6;
   background-image: url(../img/mitosis-3876669_1280.jpg);
   background-size: cover;
 }
-
-// .column {
-//   padding: 10px;
-// }
 
 .footer {
   background-color: #e56b1e;
