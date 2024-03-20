@@ -14,13 +14,13 @@
 }
 
 .jumboPoco {
-  background-image: url(/img/dna-163466_1280.jpg);
+  background-image: url(../img/dna-163466_1280.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .upa17 {
-  background-image: url(/img/team-4529717_1280.jpg);
+  background-image: url(../img/team-4529717_1280.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -115,6 +115,4 @@
 .serv10 {
   background-image: url(../img/servicios/comunidad.jpg);
   background-size: cover;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
