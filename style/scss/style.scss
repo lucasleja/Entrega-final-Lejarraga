@@ -1,9 +1,4 @@
-/* colores */ 
-
-$colorp: #e56b1e;
-$coloree: #2c1a1d;
-$colort: #4158b4;
-$colorc: #48a9a6;
+@use 'colors' as *;
 
 .navbar {
     background-color: $colorp;
@@ -35,11 +30,11 @@ $colorc: #48a9a6;
   p {
     font-size: 20px;
     font-weight: bold;
-    color: #e56b1e;
+    color: $colorp;
     -webkit-text-stroke: 1px black;
   }  
   h2 {
-    color: #4158b4;
+    color: $colort;
     -webkit-text-stroke: 1px black;
     font-weight: bold;
   }
@@ -78,7 +73,7 @@ $colorc: #48a9a6;
 }
 
 .footer {
-  background-color: #e56b1e;
+  background-color: $colorp;
   .redes a {
     padding: 15px;
     font-size: 20px;
@@ -149,7 +144,7 @@ $colorc: #48a9a6;
 }
 
 .ancho, .contactoFondo, .fondoNoticias {
-  background-color: #48a9a6;
+  background-color: $colorc;
 }
 
 section, .ancho, .historiaFondo, .hm10Fondo {
@@ -179,4 +174,17 @@ section, .ancho, .historiaFondo, .hm10Fondo {
 
 .grayscale-on-hover:hover {
   filter: grayscale(0%);
+}
+
+.textoParrafo {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.hm10Fondo {
+  min-height: 700px;
 }

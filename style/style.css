@@ -1,4 +1,3 @@
-/* colores */
 .navbar {
   background-color: #e56b1e;
   min-height: 80px;
@@ -163,6 +162,18 @@ section, .ancho, .historiaFondo, .hm10Fondo {
 
 .grayscale-on-hover:hover {
   filter: grayscale(0%);
+}
+
+.textoParrafo {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.hm10Fondo {
+  min-height: 700px;
 }
 
 /*# sourceMappingURL=style.css.map */
