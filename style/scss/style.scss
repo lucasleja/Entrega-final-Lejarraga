@@ -32,12 +32,20 @@ $colorc: #48a9a6;
   background-image: url(../img/team-4529717_1280.jpg);
   background-size: cover;
   background-position: center;
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e56b1e;
+    -webkit-text-stroke: 1px black;
+  }  
+  h2 {
+    color: #4158b4;
+    -webkit-text-stroke: 1px black;
+    font-weight: bold;
+  }
 }
   
-.historia, .hm10, .historia2 {
-  background-color: $colorc;
-  padding: 50px;
-}
+
   
 @media screen and (min-width: 576px) {
   .navbar-brand {
@@ -71,13 +79,17 @@ $colorc: #48a9a6;
 
 .footer {
   background-color: #e56b1e;
+  .redes a {
+    padding: 15px;
+    font-size: 20px;
+  }
 }
 
 .column {
   width: 33,3%;
   max-width: 100%; 
   display: flex;
-  padding: 10px;
+  padding: 5px;
   
 }
 
@@ -129,4 +141,42 @@ $colorc: #48a9a6;
 .serv10 {
   background-image: url(../img/servicios/comunidad.jpg);
   background-size: cover;
+}
+
+.carousel-caption {
+  color: black;
+  font-weight: bold;
+}
+
+.ancho, .contactoFondo, .fondoNoticias {
+  background-color: #48a9a6;
+}
+
+section, .ancho, .historiaFondo, .hm10Fondo {
+  background-image: url(../img/61802.jpg);
+  background-size: cover;
+}
+
+.fondoServicios {
+  background-image: url(../img/61802.jpg);
+  background-size: cover;
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: filter 0.5s ease;
+  }
+}
+
+.grayscale-on-hover {
+  filter: grayscale(100%);
+}
+
+.grayscale-on-hover:hover {
+  filter: grayscale(0%);
 }
